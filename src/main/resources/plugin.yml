@@ -1,0 +1,11 @@
+name: HealPlugin
+version: 1.0
+author: TopJan1
+
+main: de.topjan.healplugin.HealPlugin
+
+commands:
+  heal:
+    description: You can heal and set your Food Level on max. Furthermore you can set your remaining Air on max. so you can breath under water. Also can be used for other player
+    aliases:
+      - Heal
