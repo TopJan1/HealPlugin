@@ -1,6 +1,5 @@
 package de.topjan.healplugin.command;
 
-
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -9,9 +8,7 @@ import org.bukkit.entity.Player;
 
 public class HealCommand implements CommandExecutor {
 
-
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-
         //Command sender has not operator
         if (!commandSender.isOp()) {
             commandSender.sendMessage("§l[System] §cTut mir leid, aber leider kannst du den Befehl nicht benutzen.");
@@ -47,8 +44,6 @@ public class HealCommand implements CommandExecutor {
             commandSender.sendMessage("Du kannst den Befehl nur als Spieler benutzen!");
             return false;
         }
-
-
     }
 }
 
